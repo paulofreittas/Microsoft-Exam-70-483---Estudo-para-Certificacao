@@ -1,8 +1,8 @@
-## Microsoft Exam 70-483 - Programação em C#
+# Microsoft Exam 70-483 - Programação em C#
 
 Código desenvolvido em proposito das exigências cobradas no exame de certificação microsoft 70-483 : Programação em C#.
 
-# Gerenciar fluxo de programa (25 - 30%)
+## Gerenciar fluxo de programa (25 - 30%)
 
 - Implementar processamento multithreading e assíncrono
 
@@ -24,7 +24,7 @@ Criar manipuladores de eventos; assinar e cancelar assinatura de eventos; usar t
 
 Manipular tipos de exceções, incluindo exceções SQL, exceções de rede, exceções de comunicação, exceções de tempo limite de rede; usar declarações de captura; usar uma classe base de uma exceção; implementar blocos try-catch-finally; lançar exceções; relançar uma exceção; criar exceções personalizadas; manipular exceções internas; manipular exceções agregadas.
 
-# Criar e usar tipos (25 - 30%)
+## Criar e usar tipos (25 - 30%)
 
 - Criar tipos
 
@@ -54,7 +54,7 @@ Gerenciar recursos não gerenciados; implementar IDisposable, incluindo interaç
 
 Manipular cadeias de caracteres usando as classes StringBuilder, StringWriter e StringReader; pesquisar cadeias de caracteres; enumerar métodos de cadeias de caracteres; formatar cadeias de caracteres; usar interpolação de cadeia.
 
-# Depurar aplicativos e implementar segurança (25 - 30%)
+## Depurar aplicativos e implementar segurança (25 - 30%)
 
 - Validar entrada de aplicativo
 
@@ -76,7 +76,7 @@ Criar e gerenciar diretrizes de pré-processador; escolher um tipo de compilaç�
 
 Implementar log e rastreamento; criação de perfil de aplicativos; criar e monitor contadores de desempenho; escrever para o log de eventos.
 
-# Implementar acesso aos dados (25 - 30%)
+## Implementar acesso aos dados (25 - 30%)
 
 - Realizar operações de E/S
 
