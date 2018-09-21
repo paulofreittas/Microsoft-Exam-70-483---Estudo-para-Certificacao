@@ -1,4 +1,6 @@
-﻿using Gerenciar_fluxo_de_programa.Objetivo_1._1___Implementar_processamento_multithreading_e_assíncrono.Using_the_Thread_class;
+﻿using Gerenciar_fluxo_de_programa.Objetivo_1._1___Implementar_processamento_multithreading_e_assíncrono.Using_Parallel_Class;
+using Gerenciar_fluxo_de_programa.Objetivo_1._1___Implementar_processamento_multithreading_e_assíncrono.Using_Tasks;
+using Gerenciar_fluxo_de_programa.Objetivo_1._1___Implementar_processamento_multithreading_e_assíncrono.Using_the_Thread_class;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,8 @@ namespace Gerenciar_fluxo_de_programa
     {
         static void Main(string[] args)
         {
+            #region Thread
+
             // Básico sobre Thread
             // new ThreadClass().TestThread();
 
@@ -24,7 +28,44 @@ namespace Gerenciar_fluxo_de_programa
             //new ThreadClass().ThreadStaticAttribute();
 
             // ThreadPool
-            new ThreadClass().ThreadPoolTeste();
+            //new ThreadClass().ThreadPoolTeste();
+
+            #endregion
+
+            #region Tasks
+
+            // Introdução a Task
+            //new UsingTasks().StartTask();
+
+            // Usando Task Gererics
+            //new UsingTasks().GerenicTask();
+
+            // Task Continue
+            //new UsingTasks().TaskContinue();
+
+            // Diferentes Continues
+            //new UsingTasks().DiferentesContinues();
+
+            // Child Tasks
+            //new UsingTasks().ChildTasks();
+
+            // WaitAll
+            //new UsingTasks().WaitAll();
+
+            // WaitAny
+            //new UsingTasks().WaitAny();
+
+            #endregion
+
+            #region Parallel 
+
+            // Exemplo Parallel
+            //new ParallelClass().Exemplo();
+
+            // Break and Stop
+            new ParallelClass().BreakAndStop();
+
+            #endregion
         }
     }
 }
