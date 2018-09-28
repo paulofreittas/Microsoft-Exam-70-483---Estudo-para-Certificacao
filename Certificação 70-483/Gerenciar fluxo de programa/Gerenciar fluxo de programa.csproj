@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Objetivo 1.1 - Implementar processamento multithreading e assíncrono\Using Async and Await\AsyncAndAwait.cs" />
     <Compile Include="Objetivo 1.1 - Implementar processamento multithreading e assíncrono\Using Parallel Class\ParallelClass.cs" />
+    <Compile Include="Objetivo 1.1 - Implementar processamento multithreading e assíncrono\Using PLINQ\Plinq.cs" />
     <Compile Include="Objetivo 1.1 - Implementar processamento multithreading e assíncrono\Using Tasks\UsingTasks.cs" />
     <Compile Include="Objetivo 1.1 - Implementar processamento multithreading e assíncrono\Using the Thread class\ThreadClass.cs" />
     <Compile Include="Program.cs" />
